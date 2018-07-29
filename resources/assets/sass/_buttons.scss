@@ -1,0 +1,13 @@
+.btn{
+	border: 1px solid #e3e3e3;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 1rem;
+	background-color: $gray;
+	border: 1px solid $gray;
+	&.isGreen{
+		background-color: $green;
+		border: 1px solid $green;
+		color: $white;
+	}
+}

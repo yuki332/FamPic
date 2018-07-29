@@ -1,0 +1,25 @@
+.hero{
+	&_container{
+		height: 100vh;
+		background-image: url('/img/beach.jpg');
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	&_title_box{
+		display: flex;
+		&.is-center{
+			align-items: center;
+		}
+		.title{
+			display: block;
+			margin: 0 auto;
+			color: $white;
+			font-size: $font-size-title;
+			&.is-lower{
+				padding-top: 6.5em;
+			}
+		}
+	}
+}
